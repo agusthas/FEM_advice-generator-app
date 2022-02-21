@@ -20,8 +20,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/agusthas/FEM_advice-generator-app)
+- Live Site URL: [GitHub Pages](https://agusthas.github.io/FEM_advice-generator-app/)
 
 ## My process
 
