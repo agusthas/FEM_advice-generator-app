@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/FEM_advice-generator-app/images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SusuMantan | Advice generator app</title>
+    <script type="module" crossorigin src="/FEM_advice-generator-app/assets/index.6ea3dc46.js"></script>
+    <link rel="stylesheet" href="/FEM_advice-generator-app/assets/index.b0158593.css">
+  </head>
+  <body class="flex min-h-screen items-center justify-center bg-neutral-600">
+    <h1 class="sr-only">Advice Slip</h1>
+    <main class="p-4 font-sans font-extrabold">
+      <div
+        class="relative flex max-w-[530px] flex-col items-center justify-center rounded-xl bg-neutral-500 py-10 px-4 pb-16 text-center shadow-2xl sm:px-10"
+      >
+        <div id="content"></div>
+
+        <!-- line decoration -->
+        <div class="mt-8">
+          <div class="block md:hidden">
+            <svg width="295" height="16" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z" />
+                <g transform="translate(138)" fill="#CEE3E9">
+                  <rect width="6" height="16" rx="3" />
+                  <rect x="14" width="6" height="16" rx="3" />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="hidden md:block">
+            <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z" />
+                <g transform="translate(212)" fill="#CEE3E9">
+                  <rect width="6" height="16" rx="3" />
+                  <rect x="14" width="6" height="16" rx="3" />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <!-- dice -->
+        <button
+          id="btn-random"
+          class="group bg-primary-400 hover:bg-primary-500 hover:shadow-primary-500 absolute top-[100%] flex h-16 w-16 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full transition ease-in hover:shadow-[0px_0px_45px_0px]"
+        >
+          <svg
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="pointer-events-none transition ease-in-out group-hover:rotate-45"
+          >
+            <path
+              d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
+              fill="#202733"
+            />
+          </svg>
+        </button>
+      </div>
+    </main>
+
+    <footer class="text-primary-100 fixed bottom-0 text-sm">
+      Challenge by
+      <a
+        class="text-primary-400"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/agusthas" class="text-primary-400"
+        >SusuMantan</a
+      >.
+    </footer>
+
+    
+  </body>
+</html>
